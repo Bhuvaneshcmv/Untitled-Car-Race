@@ -3,8 +3,8 @@
 public class CarManager : MonoBehaviour
 {
     [SerializeField]
-    private PoliceCar policeCar;
+    private PoliceCar policeCarPrefab;
 
     [SerializeField]
-    private MuscleCar muscleCar;
+    private MuscleCar muscleCarPrefab;
 }
