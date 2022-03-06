@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 namespace KartGame.UI
 {
     /// <summary>
@@ -16,8 +15,7 @@ namespace KartGame.UI
         /// Turns off all the panels except the one at the given index which is turned on.
         /// </summary>
         public void SetActivePanel(int index)
-        {
-            
+        {           
             for (var i = 0; i < panels.Length; i++)
             {
                 bool active = i == index;
@@ -25,6 +23,7 @@ namespace KartGame.UI
                 if (panel.activeSelf != active)
                     panel.SetActive(active);
             }
+            Scenes scenes;
         }
 
         void OnEnable()
