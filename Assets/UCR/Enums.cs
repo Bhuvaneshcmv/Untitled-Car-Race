@@ -1,3 +1,5 @@
+namespace KartGame.UI
+{ 
     public enum Scenes
     {
         IntroMenu = 0,
@@ -15,3 +17,4 @@
         GameModes = 1,
         Controls = 2
     }
+}

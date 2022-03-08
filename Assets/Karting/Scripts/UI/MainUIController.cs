@@ -23,7 +23,6 @@ namespace KartGame.UI
                 if (panel.activeSelf != active)
                     panel.SetActive(active);
             }
-            Scenes scenes;
         }
 
         void OnEnable()
